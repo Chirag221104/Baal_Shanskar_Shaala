@@ -45,8 +45,11 @@ a {
 
 .nav-links {
   list-style: none;
-  display: flex;
-  gap: 20px;
+  display: flex; /* Ensures the items are in a row */
+  align-items: center; /* Aligns items vertically */
+  gap: 20px; /* Space between the items */
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links a {
