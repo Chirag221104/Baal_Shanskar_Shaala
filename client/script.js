@@ -33,3 +33,6 @@ async function signup() {
     console.log(result);
   }
   
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log('Website loaded!');
+  });
